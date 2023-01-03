@@ -48,8 +48,6 @@ module.exports = function toReadable(number) {
         }
         if (number % 10) {
             return `${obj[n[0]]} hundred ${obj2[n[1]]} ${obj[n[2]]}`;
-        } else {
-            return `${obj[n[0]]} hundred ${obj2[n[1]]}`;
-        }
+        } else return `${obj[n[0]]} hundred ${obj2[n[1]]}`;
     }
 };
